@@ -1,21 +1,22 @@
-# amazonecho-secret
-Secret Keeper 
+**Secret Keeper**
 
-*Introduction*
+Secret Keeper is an amazon echo skill that allows you to share your deepest secrets anonymously with other Alexa Owners in a public or private way. 
+
+**Introduction**
 
 Sometimes we have some secrets but we can't find the right person to share them with, so I thought Alexa might be the 
 ideal place to do it anonymously.  Wouldn't be fun to hear secrets from all over the world? What if we could exchange 
 secret messages with other users through Alexa? well... that's the goal of Alexa's Secret. 
 
 
-*Making Alexa Social*
+**Making Alexa Social**
 
 Most of the existing Alexa skills do not allow interaction with other Alexa owners so I wanted to create a channel to 
 provide that. Most of the input you can provide to other skills is constrained to a handful of words, 
 I did some research, and most of the custom skills that allow free input, they fail in one thing, they never get it right. 
 So I tried be focused on that issue.
 
-*Programming Story*
+**Programming Story**
 
 First of all just to be in context, I'm working with nodejs, lambda and mongodb. 
 
@@ -47,6 +48,6 @@ experience in most of the sentences. Secrets must be short.
 Finally after putting all the pieces together, I decide to had sounds and pauses, to provide a better experience for the
 user and I also tried to make Alexa looks like she is truly interested on your secret.
 
-*Integration with Raspberry PI*
+**Integration with Raspberry PI**
 I put the Alexa Voice Service on my raspberry pi, so in the demo I exchange secrets between my real Amazo Echo and
 my Alexa Voice Service on the raspberry pi.
